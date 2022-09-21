@@ -1,0 +1,12 @@
+ <div class="main-login">
+                <div class="left-login">
+                <h1>Conte sua história<br> E faça acontecer.</h1>
+                <div class="right-login">
+                <div class="card-login"><h1>Acesse!</h1>
+                <div class="textfield">
+                <label for="usuário">Nome</label>
+                <input type="text" name="Nome" placeholder="Nome">
+                <div class="textfield">
+                <label for="usuário">contato</label>
+                <input type="text" name="contato" placeholder="contato">
+                <button class="Btn-login">Vamos lá</button>
