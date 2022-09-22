@@ -56,22 +56,41 @@
         outline: none;
         color: black;
         font-size: 1rem;
-        border: 1px solid #040b18
+        border: 1px solid #040b18;
         border-radius: 8px;
+        text-align: center;
     }
 
     main form input[type="submit"] {
         cursor: pointer;
         width: 50%;
         margin-top: 4rem;
-        border: none;
+        border: solid;
         border-radius: 32px;
         background: rgb(10, 219, 219);
         color: black;
         font-size: 1.1rem;
         transition: all .3s ease-in-out;
+        text-align: center;
     }
     
     main form input[type="submit"]:hover {
         background-color: rgb(4, 114, 77);
     }
+    main form input[type="button"] {
+        cursor: pointer;
+        width: 100%;
+        margin-top: 4rem;
+        border: solid;
+        border-radius: 32px;
+        background: rgb(10, 219, 219);
+        color: black;
+        font-size: 1.1rem;
+        transition: all .3s ease-in-out;
+        text-align: center;
+    }
+
+    main form input[type="button"]:hover {
+        background-color: rgb(4, 114, 77);
+    }
+    
