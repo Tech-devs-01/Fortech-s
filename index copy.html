@@ -11,6 +11,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <header>
@@ -41,7 +42,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <section>
         <div>
           <h1>Quem somos</h1>
@@ -115,24 +116,17 @@
       </section>
     </main>
     <footer>
-      <nav class="menu_footer">
-        <ul>
-          <li><a href=""></a>Home</li>
-          <li><a href=""></a>Serviços</li>
-          <li><a href=""></a>Contato</li>
-        </ul>
+      <nav class="navbar fixed-bottom navbar-expand navbar-dark bg-dark">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+            <li class="nav-item"><a href="" class="nav-link">Contato</a></li>
+          </ul>         
+        </div>
       </nav>
-      <div class="redes">
-        <div>
-          <a href=""><img src="" alt="" /></a>
-        </div>
-        <div>
-          <a href=""><img src="" alt="" /></a>
-        </div>
-        <div>
-          <a href=""><img src="" alt="" /></a>
-        </div>
-      </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
