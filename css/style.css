@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
  body {
-    background-image: url(img/Fundo.png);
+    background-image: url(/img/Fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -48,7 +48,7 @@
     }
 
     main form input {
-        background-color: white;
+        background-color: rgb(86, 119, 150);
         width: 300px;
         height:50px;
         padding: 0 0.5rem;
@@ -57,40 +57,30 @@
         color: black;
         font-size: 1rem;
         border: 1px solid #040b18;
-        border-radius: 8px;
-        text-align: center;
+        border-radius: 10px;
     }
 
-    main form input[type="submit"] {
-        cursor: pointer;
-        width: 50%;
-        margin-top: 4rem;
-        border: solid;
-        border-radius: 32px;
-        background: rgb(10, 219, 219);
-        color: black;
-        font-size: 1.1rem;
-        transition: all .3s ease-in-out;
-        text-align: center;
-    }
-    
-    main form input[type="submit"]:hover {
-        background-color: rgb(4, 114, 77);
-    }
     main form input[type="button"] {
         cursor: pointer;
         width: 100%;
         margin-top: 4rem;
-        border: solid;
+        border: none;
         border-radius: 32px;
         background: rgb(10, 219, 219);
         color: black;
         font-size: 1.1rem;
         transition: all .3s ease-in-out;
-        text-align: center;
+        
     }
 
-    main form input[type="button"]:hover {
+    
+    
+    main form input[type="submit"]:hover {
         background-color: rgb(4, 114, 77);
     }
-    
+
+   
+
+
+
+ 
