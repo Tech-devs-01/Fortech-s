@@ -21,7 +21,7 @@ body {
   flex-direction: column;
 }
 
-.container {
+.principal {
   max-width: 1200px;
   width: 100%;
   margin: 1rem auto;
@@ -37,7 +37,7 @@ body {
   width: 400px;
   height: 200px;
   margin: 2rem;
-  text-align: start;
+  text-align: center;
 }
 
 .content-item p {
@@ -45,7 +45,7 @@ body {
   padding: 1rem;
 }
 
-.nav-bar {
+.nbar {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
@@ -60,21 +60,21 @@ body {
   color: white;
 }
 
-.nav-list {
+.nlist {
   display: flex;
   align-items: center;
 }
 
-.nav-list ul {
+.nlist ul {
   display: flex;
   justify-content: center;
 }
 
-.nav-item {
+.nitem {
   margin: 0 15px;
 }
 
-.nav-link {
+.nlink {
   font-size: 1.15rem;
   color: white;
   font-weight: 400;
@@ -107,18 +107,18 @@ footer {
   background-color: #24252a;
   box-shadow: 10px 3px 0px #464646;
 }
-.nav-bar-footer {
+.nb-footer {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem 6rem;
 }
 
-.nav-list-footer {
+.nlist-footer {
   display: flex;
   align-items: center;
 }
 
-.nav-list-footer ul {
+.nlist-footer ul {
   display: flex;
   justify-content: center;
 }
@@ -141,7 +141,7 @@ footer {
   max-height: 40px;
 }
 
-.nav-item-ft {
+.nitem-ft {
   margin: 0 15px;
 }
 
@@ -155,10 +155,10 @@ footer {
 }
 
 @media screen and (max-width: 760px) {
-  .nav-bar {
+  .nb {
     padding: 1.5rem 4rem;
   }
-  .nav-item {
+  .nitem {
     display: none;
   }
   .login-button {
@@ -178,7 +178,7 @@ footer {
     text-align: center;
     padding-bottom: 1rem;
   }
-  .mobile-menu .nav-item {
+  .mobile-menu .nitem {
     display: block;
     padding-top: 1.2rem;
   }
@@ -197,13 +197,13 @@ footer {
 
   /*Footer*/
 
-  .nav-bar-footer {
+  .nb-footer {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
   }
 
-  .nav-list-footer {
+  .nlist-footer {
     order: 1;
   }
   .social {
