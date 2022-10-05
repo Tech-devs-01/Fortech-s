@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-image: url(/img/Fundo.png);
+  background-image: url(/img/internet.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -155,7 +155,7 @@ footer {
   background-color: #24252a;
   box-shadow: 0px 3px 5px 10px #464646;
   position: absolute;
-  bottom: 0;
+  bottom: 3;
   width: 100%;
 }
 

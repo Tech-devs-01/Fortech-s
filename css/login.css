@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/img/Fundo.png);
+  background-image: url(/img/login.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -24,6 +24,8 @@ main h1 {
   color: white;
   font-size: 3rem;
   margin-bottom: 3rem;
+  margin-left: 165px;
+  margin-top: -108px;
 }
 
 main .social-media {
@@ -34,6 +36,7 @@ main .social-media {
 main .social-media img {
   width: 36px;
 }
+
 
 main form {
   display: flex;
@@ -93,11 +96,15 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 1rem auto;
+  margin-left: -55px;
+  
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin: 105px;
 }
 
 .nav-bar {
@@ -160,7 +167,7 @@ footer {
   background-color: #24252a;
   box-shadow: 0px 3px 5px 10px #464646;
   position: absolute;
-  bottom: 0;
+  bottom: 2;
   width: 100%;
 }
 
