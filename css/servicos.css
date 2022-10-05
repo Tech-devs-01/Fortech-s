@@ -22,10 +22,14 @@ body {
 }
 
 .principal {
-  max-width: 1200px;
   width: 100%;
   margin: 1rem auto;
   flex-grow: 1;
+}
+
+.carousel-inner > .carousel-item img {
+  height: 50vh;
+  padding: 5px;
 }
 
 .content {
@@ -88,6 +92,35 @@ body {
 .mobile-menu {
   display: none;
 }
+
+.apostilas {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.container-fluid h2{
+  text-align: center;
+}
+
+.box-apostila {
+  max-width: 150px;
+  width: 100%;
+}
+
+.box-apostila img{
+  width: 100%;
+}
+
+.apostilas-section {
+  border: solid 1px violet;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: antiquewhite;
+}
+
 footer {
   background-color: #24252a;
   box-shadow: 0px 3px 5px 10px #464646;
