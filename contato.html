@@ -5,91 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ForTech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/contato.css" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="" class="navbar-brand ms-4">ForTech</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navegacao"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navegacao">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a href="index copy.html" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item"><a href="Serviços.html" class="nav-link">Serviços</a></li>
+      <nav class="nav-bar">
+        <div class="logo">
+          <h1>Logo</h1>
+        </div>
+
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
           </ul>
-          <div class="text-end me-4">
-            <button type="button" class="btn btn-outline-primary">
-              Entrar
-            </button>
-            <button type="button" class="btn btn-primary">Cadastrar</button>
-          </div>
+        </div>
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+          <button><a href="#">Cadastrar</a></button>
+        </div>
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="./img/icons/menu_white_36dp.svg" alt="" />
+          </button>
         </div>
       </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+        </ul>
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+          <button><a href="#">Cadastrar</a></button>
+        </div>
+      </div>
     </header>
-    <h1 class="txt">Conte sua historia</h1>
-    <main>
-    <p>
+    <main class="container">
+      <section class="content">
+        <h1 class="txt">Conte sua historia</h1>
+        <p></p>
         <div class="social-media">
-            <a href="#">
-                <img src="/img/icons/Facebook.png" alt="facebook">
-            </a>
-            <a href="#">
-                <img src="img/icons/linkedin.png" alt="Linkedin">
-            </a>
-            <a href="#">
-                <img src="img/google.png" alt="Google">
-            </a>
-            
+          <a href="#">
+            <img src="/img/icons/Facebook.png" alt="facebook" />
+          </a>
+          <a href="#">
+            <img src="img/icons/linkedin.png" alt="Linkedin" />
+          </a>
+          <a href="#">
+            <img src="img/google.png" alt="Google" />
+          </a>
         </div>
 
         <div class="alternative">
-            <span>OR</span>
+          <span>OR</span>
         </div>
         <form action="">
-            <label for="Nome">
-                <span>Nome</span>
-                <input type="text" id="Nome" nome="Nome">
+          <label for="Nome">
+            <span>Nome</span>
+            <input type="text" id="Nome" nome="Nome" />
+          </label>
 
-            </label>
+          <label for="Contato">
+            <span>Contato</span>
+            <input type="text" id="Contato" Contato="Contato" />
+          </label>
 
-            <label for="Contato">
-                <span>Contato</span>
-                <input type="text" id="Contato" Contato="Contato">
+          <label for="Email">
+            <span>Email</span>
+            <input type="Email" id="Email" nome="Email" />
+          </label>
+          <p></p>
+          <h2>Mensagem</h2>
+          <textarea
+            name="txt"
+            id="ms"
+            style="
+              width: 26em;
+              border-radius: 13px;
+              font-size: small;
+              background-color: rgb(86, 119, 150); ;
+            "
+            rows="10"
+          ></textarea>
 
-
-            </label>
-
-            <label for="Email">
-                <span>Email</span>
-                <input type="Email" id="Email" nome="Email">
-
-            </label>
-            <p>
-            <h2>Mensagem</h2>
-            <textarea name="txt" id="ms" style="width:26em; border-radius: 13px; font-size: small; background-color: rgb(86, 119, 150);;" rows="10"></textarea>
-
-            <input type="submit" id="bt" value="Entrar em Contato">
-            
+          <input type="submit" id="bt" value="Entrar em Contato" />
         </form>
+      </section>
     </main>
+
+    <footer>
+      <nav class="nav-bar-footer">
+        <div class="logo">
+          <h1>Logo</h1>
+        </div>
+        <div class="nav-list-footer">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social">
+          <div class="social-items">
+            <div class="icon-social">
+              <a href="#"><img src="img/icons/whatsapp.png" alt="" /></a>
+            </div>
+            <div class="icon-social">
+              <a href="#"><img src="img/icons/Facebook.png" alt="" /></a>
+            </div>
+            <div class="icon-social">
+              <a href="#"><img src="img/icons/instagram.png" alt="" /></a>
+            </div>
+            <div class="icon-social">
+              <a href="#"><img src="img/icons/linkedin.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
