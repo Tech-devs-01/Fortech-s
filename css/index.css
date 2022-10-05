@@ -22,10 +22,14 @@ body {
 }
 
 .principal {
-  max-width: 1200px;
   width: 100%;
-  margin: 1rem auto;
+  margin: 0 auto;
   flex-grow: 1;
+}
+
+.carousel-inner > .carousel-item img {
+  height: 60vh;
+  padding: 5px;
 }
 
 .content {
