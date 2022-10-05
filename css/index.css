@@ -23,7 +23,7 @@ body {
 
 .principal {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto;
   flex-grow: 1;
 }
 
@@ -35,6 +35,18 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-item-principal{
+  width: 80%;
+  height: 200px;
+  margin: 2rem;
+  text-align: center;
+}
+
+.content-item-principal h2 {
+  text-align: center;
 }
 
 .content-item {
@@ -55,23 +67,21 @@ body {
   padding: 1.5rem 6rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo h1 {
-  color: white;
+.logo img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .nlist {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nlist ul {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .nitem {
@@ -82,6 +92,7 @@ body {
   font-size: 1.15rem;
   color: white;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .login-button button {
