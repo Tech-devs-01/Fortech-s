@@ -52,13 +52,13 @@ main form label span {
 }
 
 main form input {
-  background-color: rgb(86, 119, 150);
+  background-color: rgb(92, 98, 104);
   width: 300px;
   height: 50px;
   padding: 0 0.5rem;
   margin-top: 1rem;
   outline: none;
-  color: black;
+  color: white;
   font-size: 1rem;
   border: 1px solid #040b18;
   border-radius: 10px;
@@ -66,7 +66,7 @@ main form input {
 
 main form input[type="button"] {
   cursor: pointer;
-  width: 100%;
+  width: 70%;
   margin-top: 4rem;
   border: none;
   border-radius: 32px;
@@ -76,10 +76,15 @@ main form input[type="button"] {
   transition: all 0.3s ease-in-out;
 }
 
-main form input[type="submit"]:hover {
+main form input[type="button"]:hover {
   background-color: rgb(4, 114, 77);
 }
-
+textarea {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(92, 98, 104);
+  border-radius: 10px;
+}
 header {
   background-color: #24252a;
   box-shadow: 0px 3px 10px #464646;
