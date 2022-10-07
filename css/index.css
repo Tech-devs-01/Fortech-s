@@ -25,9 +25,7 @@ body {
   flex-direction: column;
 }
 
-.principal {
-  width: 100%;
-  margin: 10px auto;
+.container-fluid {
   flex-grow: 1;
 }
 
