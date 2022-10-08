@@ -1,2 +1,3 @@
-# Graficstech-s
-Projeto em grupo Módulo1 aula 1
+# Fortech
+
+Projeto em grupo para o Módulo 1 do curso Dev Full Stack - Resilia
