@@ -11,7 +11,12 @@ body {
   background-size: cover;
   color: white;
 }
-
+header {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
+footer {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
 main {
   width: 100vw;
   display: flex;
